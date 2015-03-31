@@ -5,6 +5,10 @@
 
 ![效果](http://i3.tietuku.com/b7d71611dc85bc46.gif)
 
+当然，你也可以整合侧滑删除的功能
+
+![](http://i3.tietuku.com/f199b8ff0277e1fc.gif)
+
 #About Me
 ![header](http://avatar.csdn.net/C/6/8/1_bz419927089.jpg)
 </br>
