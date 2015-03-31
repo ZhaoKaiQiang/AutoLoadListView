@@ -1,0 +1,2 @@
+# AutoLoadListView
+这是一个可以实现下拉刷新和自动加载下一页的ListView，下拉刷新使用Google的原生效果
