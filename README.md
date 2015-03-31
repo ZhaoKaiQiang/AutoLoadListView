@@ -3,7 +3,7 @@
 
 ---
 
-[效果](http://i3.tietuku.com/b7d71611dc85bc46.gif)
+![效果](http://i3.tietuku.com/b7d71611dc85bc46.gif)
 
 #About Me
 ![header](http://avatar.csdn.net/C/6/8/1_bz419927089.jpg)
