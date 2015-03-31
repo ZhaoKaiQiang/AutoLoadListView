@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.socks.autoload.AutoLoadListView.OnLoadNextListener;
 import com.socks.autoload.LoadingFooter.State;
+import com.socks.autoload.zlistview.ListViewAdapter;
 
 public class MainActivity extends Activity implements
 		SwipeRefreshLayout.OnRefreshListener {
@@ -50,7 +51,7 @@ public class MainActivity extends Activity implements
 			}
 		};
 	};
-	private MyAdapter adapter;
+	private ListViewAdapter adapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +70,7 @@ public class MainActivity extends Activity implements
 
 		listView = (AutoLoadListView) this.findViewById(R.id.listview);
 
-		adapter = new MyAdapter();
+		adapter = new ListViewAdapter(this);
 		listView.setAdapter(adapter);
 		listView.setOnLoadNextListener(new OnLoadNextListener() {
 
@@ -85,6 +86,9 @@ public class MainActivity extends Activity implements
 		handler.sendEmptyMessageDelayed(MSG_REFRESH, 3000);
 	}
 
+	/**
+	 * 普通的适配器
+	 */
 	private class MyAdapter extends BaseAdapter {
 
 		public int count = 20;
