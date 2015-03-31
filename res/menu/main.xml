@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.socks.ninegag.MainActivity" >
+
+    <item
+        android:id="@+id/action_reshresh"
+        android:icon="@drawable/ic_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="刷新"/>
+
+</menu>
